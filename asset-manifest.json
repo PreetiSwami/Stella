@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/PreetiSwami/Stella/static/css/main.039bf95e.css",
+    "main.js": "/PreetiSwami/Stella/static/js/main.abd6436d.js",
+    "static/media/working.gif": "/PreetiSwami/Stella/static/media/working.e5c19b68fc0f40e2228a.gif",
+    "static/media/Hello.gif": "/PreetiSwami/Stella/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/angular-1.png": "/PreetiSwami/Stella/static/media/angular-1.7f945eb6249929f7b83e.png",
+    "static/media/illustration.svg": "/PreetiSwami/Stella/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/sass-icon.svg": "/PreetiSwami/Stella/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/typescript-icon.svg": "/PreetiSwami/Stella/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/whatsapp.svg": "/PreetiSwami/Stella/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
+    "static/media/bootstrap-icon.svg": "/PreetiSwami/Stella/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
+    "static/media/java.svg": "/PreetiSwami/Stella/static/media/java.f79dfef44d54c7ab0f7a40ca9e03bab5.svg",
+    "static/media/react-icon.svg": "/PreetiSwami/Stella/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "index.html": "/PreetiSwami/Stella/index.html",
+    "static/media/python.svg": "/PreetiSwami/Stella/static/media/python.3d8ed41432d2edaf850964b1055db196.svg",
+    "static/media/phone-icon.svg": "/PreetiSwami/Stella/static/media/phone-icon.91617f27ac814ef5f29b533ab3d256ec.svg",
+    "static/media/shopify.svg": "/PreetiSwami/Stella/static/media/shopify.162913e43c02c125fd0720d80fc0dba3.svg",
+    "static/media/github.svg": "/PreetiSwami/Stella/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/email-icon.svg": "/PreetiSwami/Stella/static/media/email-icon.a83578f914460e952501546655b76165.svg",
+    "static/media/html-icon.svg": "/PreetiSwami/Stella/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
+    "static/media/wordpress.svg": "/PreetiSwami/Stella/static/media/wordpress.3bcdd91b50514041e84ea420c14b4812.svg",
+    "static/media/css-icon.svg": "/PreetiSwami/Stella/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
+    "static/media/linkedin.svg": "/PreetiSwami/Stella/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "static/media/js-icon.svg": "/PreetiSwami/Stella/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
+    "static/media/vue-icon.svg": "/PreetiSwami/Stella/static/media/vue-icon.c286d2da48ffbf281f407b0c4c94271f.svg",
+    "main.039bf95e.css.map": "/PreetiSwami/Stella/static/css/main.039bf95e.css.map",
+    "main.abd6436d.js.map": "/PreetiSwami/Stella/static/js/main.abd6436d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.abd6436d.js"
+  ]
+}
