@@ -19,8 +19,15 @@ export const Container = styled.section`
     overflow: hidden;
 
     .project{
+
+
+      background-color: #21212150;
+     backdrop-filter: blur(6px);
+     z-index: 1000;
+
+
+
        padding: 2.5rem 2rem;
-      background-color: #2b2b2b;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -29,8 +36,9 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-15px);
-        background-color: #fede23;
+        background-color: #40bcfaff;
         color:#212121;
+        
       }
 
       header{

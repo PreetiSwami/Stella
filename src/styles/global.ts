@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --pink: #E31F71;
+    --pink: #a2a2a2ff;
     --black: #212121;
-    --green: #23ce6b;
+    --green: #51bdf3ff;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
 
@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
+        background-color: #bfe6f9ff;
         color: var(--black);
       }
 
@@ -76,8 +76,8 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.5rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
-    color: #FFFF;
+        background-color: #bfe6f9ff;
+    color: black;
   }
 
   body, input, textarea, button{

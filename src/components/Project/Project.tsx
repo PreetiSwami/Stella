@@ -16,11 +16,7 @@ export function Project() {
           <div className="project">
             <header>
 
-              <div className="project-links">
-                <a href="" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
-              </div>
+             
             </header>
             <div className="body">
               <h3>Website Development</h3>
@@ -41,11 +37,7 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="project-links">
-                <a href="" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-
-                </div>
+              
             </header>
             <div className="body">
               <h3>Cybersecurity</h3>
@@ -58,11 +50,7 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <div className="project-links">
-                <a href="" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-
-              </div>
+              
             </header>
             <div className="body">
               <h3>App Development</h3>

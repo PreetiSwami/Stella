@@ -8,28 +8,35 @@ import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+import workingGIF from "../../assets/Developer activity-cuate-2.svg";
+
+
+
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Stella</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Premium Digital Solutions</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Websites and App Development</p>
-        </ScrollAnimation>
+          <h3>We Turn Browsers into Buyers</h3>
+
+        </ScrollAnimation> */}
+       <div className="about-image">
+               <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
+                 <img src={workingGIF} alt="developer" />
+               </ScrollAnimation>
+             </div>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
+                  
+
+         
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        {/* <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media">
         <a
         href="https://www.linkedin.com/in/preeti-swamy-a96a21b3"
@@ -47,12 +54,22 @@ export function Hero() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
-      <div className="hero-image">
+      <div className="hero-text">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
+          <h1>Whether you're launching a startup or upgrading your enterprise systems, we’re here to solve your toughest tech challenges.</h1>
+
+<h2>Why you need Stella?</h2>
+<h3>More Clicks. More Carts. More Conversions</h3>
+       
+         <BrowserRouter>
+           <div className="button-container">
+             <NavHashLink smooth to="#contact" className="button">Get Your Free Consultation</NavHashLink>
+            
+           </div>
+         </BrowserRouter>
+               </ScrollAnimation>
       </div>
     </Container>
   )

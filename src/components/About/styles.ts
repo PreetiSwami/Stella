@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  margin-top: 10rem;
 
+display: flex;
+  flex-direction: row;
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
@@ -29,12 +28,12 @@ export const Container = styled.section`
     // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
     margin-top: 0rem;
-    color: var(--green);
+    color: black;
   }
 
   h3{
-    margin-top: 2rem;
-    color: var(--green);
+    margin: 5rem 0rem;
+      color:#06a7f7ff;
   }
 
   p{
@@ -42,13 +41,16 @@ export const Container = styled.section`
     letter-spacing: 0.1rem;
   }
 
-
+.about-text{
+width: 60%;
+}
 
   .about-image{
+  width: 40%;
     text-align: center;
+    margin-top:0rem !important;
    img{
-     margin-top: 2rem;
-     width: 75%;
+     width: 100%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -58,12 +60,16 @@ export const Container = styled.section`
   }
 
   @media only screen and (max-width: 480px) {
+  .about-text{
+width: 100%;
+}
+   flex-direction: column;
     .about-image {
-      max-width: 100%;
+      width:100%;
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        width: 90%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
@@ -73,15 +79,20 @@ export const Container = styled.section`
   }
 
   @media (max-width: 960px){
+     flex-direction: column;
+
     display: block;
     text-align: center;
 
     .hard-skills{
       justify-content: center;
     }
+      .about-text{
+width: 100%;
+}
     .about-image{
       display: flex;
-      max-width: 100%;
+      width: 100%;
       img{
         margin-top: 2rem;
         width: 100%;

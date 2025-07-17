@@ -11,8 +11,8 @@ export const Container = styled.section`
       font-size: 4rem;
     }
     p{
-      color: var(--green);
-      font-weight: 500;
+      color:#06a7f7ff;
+      font-weight: 600;
     }
   }
 
@@ -31,7 +31,7 @@ export const Container = styled.section`
       max-width: 25rem;
       gap: 2rem;
       background-color: var(--green);
-      border-radius: 1.4rem;
+      border-radius: 5rem;
       padding: 1rem 2rem;
       transition: background-color 0.25s;
       img{
