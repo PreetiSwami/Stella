@@ -63,17 +63,25 @@ margin: 7rem 0rem;
 
 
   @media(max-width: 960px){
+
   
     display: block;
     font-size: 3rem;
     margin-top: 10%;
+
+    .button-container{
+margin: 2rem 0rem;
+
+  } 
+
     .hero-text{
     h1{
       font-size: 3rem;
+      margin-top: 0.5rem !important;
       }
 
       h2,h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
     
@@ -116,9 +124,40 @@ justify-content: center;
 
 
   @media(max-width: 600px){
+
+   .button-container{
+margin: 2rem 0rem;
+
+  }
     margin-top: 15%;
+     .hero-text{
+    h1{
+      font-size: 3rem;
+      margin-top: 0.5rem !important;
+      }
+
+      h2,h3{
+        font-size: 1.5rem;
+      }
+    }
+    
   }
   @media(max-width: 480px){
+  .button-container{
+margin: 2rem 0rem;
+
+  }
     margin-top: 15%;
+     .hero-text{
+    h1{
+      font-size: 3rem;
+      margin-top: 0.5rem !important;
+      }
+
+      h2,h3{
+        font-size: 1.5rem;
+      }
+    }
+    
   }
 `
