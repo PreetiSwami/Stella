@@ -14,7 +14,7 @@ import workingGIF from "../../assets/Developer activity-cuate-2.svg";
 
 export function Hero() {
   return (
-    <Container id="home">
+    <Container id="home" className="hero-container">
       <div className="hero-text">
         {/* <ScrollAnimation animateIn="fadeInUp">
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
@@ -26,14 +26,14 @@ export function Hero() {
           <h3>We Turn Browsers into Buyers</h3>
 
         </ScrollAnimation> */}
-       <div className="about-image">
+       
+        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+                  
+<div className="about-image">
                <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
                  <img src={workingGIF} alt="developer" />
                </ScrollAnimation>
              </div>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-                  
-
          
         </ScrollAnimation>
         {/* <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
