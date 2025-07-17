@@ -27,12 +27,12 @@ export function Hero() {
 
         </ScrollAnimation> */}
        
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
                   
 <div className="about-image">
-               <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
+               
                  <img src={workingGIF} alt="developer" />
-               </ScrollAnimation>
+              
              </div>
          
         </ScrollAnimation>
