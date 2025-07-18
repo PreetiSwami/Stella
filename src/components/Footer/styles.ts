@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   background-color: #2b2b2b;
-  padding: 3rem 15rem;
+  padding: 2rem 3rem;
   margin-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+      font-size: 2rem;
 
 
   .logo{
@@ -47,15 +48,15 @@ export const Container = styled.footer`
   }
 
   @media(max-width: 800px){
-    padding: 4rem 10rem;
+    padding: 2rem 3rem;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
   }
   @media(max-width: 600px){
-    padding: 4rem 1rem;
+    padding: 2rem 3rem;
     p{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `

@@ -63,17 +63,10 @@ margin: 7rem 0rem;
 
 
   @media(max-width: 960px){
-
   
     display: block;
     font-size: 3rem;
     margin-top: 10%;
-
-    .button-container{
-margin: 2rem 0rem;
-
-  } 
-
     .hero-text{
     h1{
       font-size: 3rem;
@@ -113,7 +106,6 @@ justify-content: center;
     width: 100%;
    img{
      width: 40vw;
-     height:150vh
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -125,10 +117,7 @@ justify-content: center;
 
   @media(max-width: 600px){
 
-   .button-container{
-margin: 2rem 0rem;
-
-  }
+  
     margin-top: 15%;
      .hero-text{
     h1{
@@ -143,10 +132,6 @@ margin: 2rem 0rem;
     
   }
   @media(max-width: 480px){
-  .button-container{
-margin: 2rem 0rem;
-
-  }
     margin-top: 15%;
      .hero-text{
     h1{

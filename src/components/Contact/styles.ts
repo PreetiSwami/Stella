@@ -4,17 +4,21 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 10rem;
 
+  
+
   header{
     text-align: center;
     h2{
       text-align: center;
       font-size: 4rem;
+      margin-bottom: 3rem;
     }
     p{
       color:#06a7f7ff;
       font-weight: 600;
     }
   }
+    
 
   .contacts{
     display: flex;
@@ -22,7 +26,7 @@ export const Container = styled.section`
     justify-content: center;
     gap: 2rem;
     place-items: center;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
     div{
       display: flex;
       align-items: center;
@@ -42,7 +46,7 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color:  #fede23;
+        background-color: #69696aff;
         a{
           color: #FFF;
         }
