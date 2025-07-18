@@ -88,7 +88,7 @@ margin: 7rem 0rem;
   }
 
   .button-container{
-margin: 5rem 0rem;
+margin: 2.5rem 0rem;
 justify-content: center;
 
 
